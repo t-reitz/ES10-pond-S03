@@ -1,0 +1,35 @@
+{
+    "name": "husky-quality-gate-demo",
+    "version": "1.0.0",
+    "description": "Repositório para demonstrar a configuração do Husky",
+    "main": "dist/index.js",
+    "scripts": {
+      "build": "tsc",
+      "lint": "eslint . --ext .ts,.tsx",
+      "lint:fix": "eslint . --ext .ts,.tsx --fix",
+      "test": "jest",
+      "test:watch": "jest --watch",
+      "typecheck": "tsc --noEmit",
+      "prepare": "husky install"
+    },
+    "keywords": [
+      "husky",
+      "git hooks",
+      "quality gate",
+      "ci"
+    ],
+    "author": "Seu Nome <seu-email@example.com>",
+    "license": "ISC",
+    "devDependencies": {
+      "@eslint/js": "^9.0.0", 
+      "@types/jest": "^29.0.0", 
+      "@types/node": "^20.0.0", 
+      "eslint": "^9.0.0", 
+      "husky": "^9.0.0", 
+      "jest": "^29.0.0", 
+      "ts-jest": "^29.0.0", 
+      "typescript": "^5.0.0", 
+      "typescript-eslint": "^7.0.0" 
+    }
+  }
+  
